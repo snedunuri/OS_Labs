@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074887341CBAC9B00031F3D0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0748872A1CBAC9B00031F3D0 /* main.cpp */; };
+		074887361CBAC9B00031F3D0 /* SimulationManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 074887311CBAC9B00031F3D0 /* SimulationManager.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0748871B1CBAC9950031F3D0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0748871D1CBAC9950031F3D0 /* OS Scheduler Lab V2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OS Scheduler Lab V2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		074887271CBAC9B00031F3D0 /* Event.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Event.hpp; path = "../../OS Scheduler Lab 2/Event.hpp"; sourceTree = "<group>"; };
+		074887281CBAC9B00031F3D0 /* FCFSScheduler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FCFSScheduler.hpp; path = "../../OS Scheduler Lab 2/FCFSScheduler.hpp"; sourceTree = "<group>"; };
+		074887291CBAC9B00031F3D0 /* LCFSScheduler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = LCFSScheduler.hpp; path = "../../OS Scheduler Lab 2/LCFSScheduler.hpp"; sourceTree = "<group>"; };
+		0748872A1CBAC9B00031F3D0 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../OS Scheduler Lab 2/main.cpp"; sourceTree = "<group>"; };
+		0748872C1CBAC9B00031F3D0 /* PRIOScheduler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PRIOScheduler.hpp; path = "../../OS Scheduler Lab 2/PRIOScheduler.hpp"; sourceTree = "<group>"; };
+		0748872D1CBAC9B00031F3D0 /* Process.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Process.hpp; path = "../../OS Scheduler Lab 2/Process.hpp"; sourceTree = "<group>"; };
+		0748872F1CBAC9B00031F3D0 /* RRScheduler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = RRScheduler.hpp; path = "../../OS Scheduler Lab 2/RRScheduler.hpp"; sourceTree = "<group>"; };
+		074887301CBAC9B00031F3D0 /* Scheduler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Scheduler.hpp; path = "../../OS Scheduler Lab 2/Scheduler.hpp"; sourceTree = "<group>"; };
+		074887311CBAC9B00031F3D0 /* SimulationManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SimulationManager.cpp; path = "../../OS Scheduler Lab 2/SimulationManager.cpp"; sourceTree = "<group>"; };
+		074887321CBAC9B00031F3D0 /* SimulationManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SimulationManager.hpp; path = "../../OS Scheduler Lab 2/SimulationManager.hpp"; sourceTree = "<group>"; };
+		074887331CBAC9B00031F3D0 /* SJFScheduler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SJFScheduler.hpp; path = "../../OS Scheduler Lab 2/SJFScheduler.hpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0748871A1CBAC9950031F3D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		074887141CBAC9950031F3D0 = {
+			isa = PBXGroup;
+			children = (
+				0748871F1CBAC9950031F3D0 /* OS Scheduler Lab V2 */,
+				0748871E1CBAC9950031F3D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0748871E1CBAC9950031F3D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0748871D1CBAC9950031F3D0 /* OS Scheduler Lab V2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0748871F1CBAC9950031F3D0 /* OS Scheduler Lab V2 */ = {
+			isa = PBXGroup;
+			children = (
+				074887271CBAC9B00031F3D0 /* Event.hpp */,
+				074887281CBAC9B00031F3D0 /* FCFSScheduler.hpp */,
+				074887291CBAC9B00031F3D0 /* LCFSScheduler.hpp */,
+				0748872A1CBAC9B00031F3D0 /* main.cpp */,
+				0748872C1CBAC9B00031F3D0 /* PRIOScheduler.hpp */,
+				0748872D1CBAC9B00031F3D0 /* Process.hpp */,
+				0748872F1CBAC9B00031F3D0 /* RRScheduler.hpp */,
+				074887301CBAC9B00031F3D0 /* Scheduler.hpp */,
+				074887311CBAC9B00031F3D0 /* SimulationManager.cpp */,
+				074887321CBAC9B00031F3D0 /* SimulationManager.hpp */,
+				074887331CBAC9B00031F3D0 /* SJFScheduler.hpp */,
+			);
+			path = "OS Scheduler Lab V2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0748871C1CBAC9950031F3D0 /* OS Scheduler Lab V2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074887241CBAC9950031F3D0 /* Build configuration list for PBXNativeTarget "OS Scheduler Lab V2" */;
+			buildPhases = (
+				074887191CBAC9950031F3D0 /* Sources */,
+				0748871A1CBAC9950031F3D0 /* Frameworks */,
+				0748871B1CBAC9950031F3D0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OS Scheduler Lab V2";
+			productName = "OS Scheduler Lab V2";
+			productReference = 0748871D1CBAC9950031F3D0 /* OS Scheduler Lab V2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		074887151CBAC9950031F3D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = " Satya Nedunuri";
+				TargetAttributes = {
+					0748871C1CBAC9950031F3D0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 074887181CBAC9950031F3D0 /* Build configuration list for PBXProject "OS Scheduler Lab V2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 074887141CBAC9950031F3D0;
+			productRefGroup = 0748871E1CBAC9950031F3D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0748871C1CBAC9950031F3D0 /* OS Scheduler Lab V2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		074887191CBAC9950031F3D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074887361CBAC9B00031F3D0 /* SimulationManager.cpp in Sources */,
+				074887341CBAC9B00031F3D0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		074887221CBAC9950031F3D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		074887231CBAC9950031F3D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		074887251CBAC9950031F3D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		074887261CBAC9950031F3D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		074887181CBAC9950031F3D0 /* Build configuration list for PBXProject "OS Scheduler Lab V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074887221CBAC9950031F3D0 /* Debug */,
+				074887231CBAC9950031F3D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		074887241CBAC9950031F3D0 /* Build configuration list for PBXNativeTarget "OS Scheduler Lab V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074887251CBAC9950031F3D0 /* Debug */,
+				074887261CBAC9950031F3D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 074887151CBAC9950031F3D0 /* Project object */;
+}
